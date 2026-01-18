@@ -1,11 +1,18 @@
+import { useState } from "react";
 import "./navbar.scss";
 
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen((prev) => !prev);
+  };
+
   return (
     <div className="navbar">
       <div className="logo">
         <img src="/logo.svg" alt="" />
-        <span>lamadin</span>
+        <span>Company Dashboard</span>
       </div>
       <div className="icons">
         <img src="/search.svg" alt="" className="icon" />
@@ -20,9 +27,22 @@ const Navbar = () => {
             src="https://images.pexels.com/photos/769745/pexels-photo-769745.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
-          <span>Batuhan</span>
+          <span>Aditya</span>
         </div>
-        <img src="/settings.svg" alt="" className="icon" />
+        <div className="settings">
+          <img
+            src="/settings.svg"
+            alt=""
+            className="icon"
+            onClick={toggleDropdown}
+          />
+          {isDropdownOpen && (
+            <div className="dropdown">
+              <div className="dropdown-item">Profile</div>
+              <div className="dropdown-item">Logout</div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

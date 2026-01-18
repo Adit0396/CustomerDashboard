@@ -6,7 +6,7 @@ export const menu = [
       {
         id: 1,
         title: "Homepage",
-        url: "/",
+        url: "/homepage",
         icon: "/home.svg",
       },
       {
@@ -54,25 +54,24 @@ export const menu = [
       {
         id: 1,
         title: "Elements",
-        url: "/",
+        url: "/elements",
         icon: "/element.svg",
       },
       {
         id: 2,
         title: "Notes",
-        url: "/",
+        url: "/notes",
         icon: "/note.svg",
       },
       {
         id: 3,
         title: "Forms",
-        url: "/",
+        url: "/forms",
         icon: "/form.svg",
       },
       {
         id: 4,
         title: "Calendar",
-        url: "/",
         icon: "/calendar.svg",
       },
     ],
@@ -84,13 +83,13 @@ export const menu = [
       {
         id: 1,
         title: "Settings",
-        url: "/",
+        url: "/settings",
         icon: "/setting.svg",
       },
       {
         id: 2,
         title: "Backups",
-        url: "/",
+        url: "/backups",
         icon: "/backup.svg",
       },
     ],
@@ -102,13 +101,13 @@ export const menu = [
       {
         id: 1,
         title: "Charts",
-        url: "/",
+        url: "/charts",
         icon: "/chart.svg",
       },
       {
         id: 2,
         title: "Logs",
-        url: "/",
+        url: "/logs",
         icon: "/log.svg",
       },
     ],

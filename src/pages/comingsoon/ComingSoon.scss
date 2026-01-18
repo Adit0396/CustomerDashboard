@@ -1,0 +1,13 @@
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Optional background color */
+
+  .coming-soon-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    max-height: 100%; /* Prevent overflow */
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+}
