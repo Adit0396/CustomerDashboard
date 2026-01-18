@@ -52,6 +52,14 @@ function App() {
           element: <ComingSoon />,
         },
         {
+          path: "/elements",
+          element: <ComingSoon />,
+        },
+        {
+          path: "/orders",
+          element: <ComingSoon />,
+        },
+        {
           path: "/products/:id",
           element: <Product />,
         },
