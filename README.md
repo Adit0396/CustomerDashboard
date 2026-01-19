@@ -1,64 +1,109 @@
-
 # React & TypeScript Dashboard
 
-![Dashboard Mockup](https://gcdnb.pbrd.co/images/hWFN0SFxBBH1.png)
+A simple and scalable dashboard application built using **React**, **TypeScript**, **Material UI**, and **Recharts**.  
+This project is intended as a **starter dashboard / learning project** and a foundation for building more complex web applications in the future.
 
-This project is a simple test project using React and TypeScript. My main goal is to bring technologies like React, Material-UI and Recharts together to show how it works and to build a foundation for bigger and more complex projects in the future.
+![Dashboard Screenshot](public/screenshots/dashboard.png)
 
-## Özellikler
+---
 
-- **Data Grid**: The data grid created using [Material-UI](https://material-ui.com/) allows you to easily visualize and organize your data.
-- **Graphics**: [Recharts](http://recharts.org/) powered charts offer a visually effective way to understand and monitor your data.
-- **TypeScript Support**: The project is written in TypeScript and will help you make your code more secure.
+## ✨ Features
 
-## Demo
+- Responsive dashboard layout
+- Material UI (MUI) based design system
+- Data visualization using Recharts
+- Modular and scalable folder structure
+- Fully typed React components with TypeScript
+- Easy to extend and customize
 
-Demo available on this [page](https://react-dashboard-batukaraman.netlify.app).
+---
 
-## Goals
+## 🧰 Technology Stack
 
-1. **Modular Structure**: The project offers a modular foundation for blog sites, e-commerce platforms and other similar web applications. Each module is designed to meet different business requirements and can be easily integrated.
+- **React**
+- **TypeScript**
+- **Material UI (MUI)**
+- **Recharts**
 
-2. **Backend Infrastructure**: In the future, this frontend project will be integrated with a backend infrastructure. In this way, users will be able to easily use all the backend functions required for web applications such as database management, user authentication and server-based operations.
+---
 
-3. **Comprehensive Solution**: The project provides an adaptable and extensible solution for a wide range of web application types. It can be used for blogs, e-commerce sites, personal portfolios and more.
+## 🚀 Getting Started
 
-## Quick start
+Follow these steps to run the project locally.
 
-1. Clone this project on your computer:
-```
-git clone https://github.com/batukaraman/react-dashboard.git
-```
+### Prerequisites
+- **Node.js** (v18 or later recommended)
+- **npm** or **yarn**
 
-2. Go to the project directory:
+### Installation
+
+1. Clone the repository:
 ```bash
-cd react-dashboard
-```
+git clone https://github.com/Adit0396/CustomerDashboard.git
+
+
+2. Navigate to the project directory:
+cd CustomerDashboard
 
 3. Install dependencies:
-```
 npm install
-```
 
-4. Start the project:
-```
+4. Start the development server:
 npm start
-```
 
-The project should now be up and running at http://localhost:3000.
-
-## Technology Stack
-- TypeScript
-- Material UI
-- Recharts
-
-## Contact
-
-If you have questions or feedback, please contact [batuhankaraman0@hotmail.com](mailto:batuhankaraman0@hotmail.com).
-
-## License
-
-Licensed under [MIT](LICENSE).
+The application will be available at:
+👉 http://localhost:3000
 
 
-> This project may only be created as a test project and I plan to add more features and improvements in the future. Star this repository to stay tuned and don't miss updates!
+| Command         | Description                      |
+| --------------- | -------------------------------- |
+| `npm start`     | Runs the app in development mode |
+| `npm run build` | Builds the app for production    |
+| `npm test`      | Runs tests (if configured)       |
+
+
+src/
+ ├── components/    # Reusable UI components
+ ├── pages/         # Dashboard pages
+ ├── charts/        # Chart components
+ ├── theme/         # MUI theme configuration
+ ├── App.tsx        # Root component
+ └── index.tsx      # Application entry point
+
+🎯 Project Goals
+
+Provide a clean and modular dashboard foundation
+
+Demonstrate integration of React, TypeScript, MUI, and charts
+
+Serve as a base for future projects such as:
+
+Admin dashboards
+
+E-commerce panels
+
+Analytics platforms
+
+Personal or portfolio projects
+
+
+🔮 Future Improvements
+
+Backend integration (APIs, authentication, database)
+
+Role-based access control
+
+Dark mode support
+
+Improved state management
+
+Unit and integration testing
+
+Performance optimizations
+
+
+📬 Contact
+
+If you have questions or feedback, feel free to reach out:
+
+📧 adityaiyer03051996@gmail.com
