@@ -3,7 +3,7 @@
 A simple and scalable dashboard application built using **React**, **TypeScript**, **Material UI**, and **Recharts**.  
 This project is intended as a **starter dashboard / learning project** and a foundation for building more complex web applications in the future.
 
-![Dashboard Screenshot](public/screenshots/dashboard.png)
+![Dashboard Screenshot](public/dashboard.png)
 
 ---
 

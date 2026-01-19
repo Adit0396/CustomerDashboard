@@ -10,3 +10,6 @@ dist
 
 # Local Netlify folder
 .netlify
+
+# IDE files
+.DS_Store

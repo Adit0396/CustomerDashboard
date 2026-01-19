@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss" as variables;
 
 .user {
   display: flex;
@@ -31,7 +31,7 @@
 
         span {
           font-size: 32px;
-          color: $main-color;
+          color: variables.$main-color;
         }
       }
       .details {
@@ -112,8 +112,8 @@
     font-size: 24px;
     padding: 8px;
     border-radius: 4px;
-    background-color: $main-color;
-    color: $dark-color;
+    background-color: variables.$main-color;
+    color: variables.$dark-color;
     user-select: none;
   }
 }
